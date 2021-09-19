@@ -1,0 +1,30 @@
+.header {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+  z-index: 100;
+  margin: auto;
+}
+.logo p {
+  color: #fff !important;
+}
+@media all and (min-width: 800px) {
+  .header {
+    width: 40%;
+  }
+}
+.header__icon {
+  padding: 20px;
+}
+.logo h1 {
+  background: rgb(199, 0, 255);
+  background: linear-gradient(
+    45deg,
+    rgba(199, 0, 255, 1) 0%,
+    rgba(255, 82, 135, 1) 100%
+  );
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  font-size: 40px;
+}

@@ -1,0 +1,95 @@
+.card {
+  position: relative;
+  background-color: #222;
+  width: 270px;
+  padding: 20px;
+  height: 270px;
+  box-shadow: 0px 0px 24px 0px rgba(199, 0, 255, 0.3);
+  border-radius: 30px;
+  color: #fff;
+}
+@media all and (min-width: 800px) {
+  .card {
+    height: 350px;
+    width: 350px;
+  }
+}
+.jobcard__container {
+  display: flex;
+  margin-top: 40px;
+  justify-content: center;
+}
+.swipe {
+  position: absolute;
+}
+.card h1{
+  font-size: 26px;
+  background: rgb(199, 0, 255);
+  background: radial-gradient(
+    circle,
+    rgba(199, 0, 255, 1) 0%,
+    rgba(255, 82, 135, 1) 100%
+  );
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-size: 400%;
+  animation-name: anim;
+  animation-duration: 4s;
+  animation-iteration-count: infinite;
+  animation-timing-function: linear;
+  animation-fill-mode: forwards;
+}
+@keyframes anim {
+  0% {
+    background-position: 0%;
+  }
+  100% {
+    background-position: 400%;
+  }
+}
+.card h2{
+  font-size: 18px;
+  font-family: 'Poppins', sans-serif;
+}
+.card h3{
+  font-size: 14px;
+  margin-bottom: 20px;
+}
+.card h6{
+  font-size: 14px;
+  font-family: 'Raleway', sans-serif;
+}
+.card span{
+  font-size: 20px;
+  background: rgb(199, 0, 255);
+  background: radial-gradient(
+    circle,
+    rgba(199, 0, 255, 1) 0%,
+    rgba(255, 82, 135, 1) 100%
+  );
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-size: 400%;
+  animation-name: anim;
+  animation-duration: 4s;
+  animation-iteration-count: infinite;
+  animation-timing-function: linear;
+  animation-fill-mode: forwards;
+}
+@media all and (min-width:800px){
+  .card h1{
+    font-size: 36px;
+  }
+  .card h2{
+    font-size: 20px;
+  }
+  .card h3{
+    font-size: 16px;
+  }
+  .card h6{
+    font-size: 16px;
+  }
+  .card span {
+    font-size: 26px;
+  }
+}
