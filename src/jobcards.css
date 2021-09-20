@@ -8,6 +8,20 @@
   border-radius: 30px;
   color: #fff;
 }
+.loading {
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  background: rgb(199, 0, 255);
+  background: radial-gradient(
+    circle,
+    rgba(199, 0, 255, 1) 0%,
+    rgba(255, 82, 135, 1) 100%
+  );
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
 @media all and (min-width: 800px) {
   .card {
     height: 350px;
@@ -22,7 +36,7 @@
 .swipe {
   position: absolute;
 }
-.card h1{
+.card h1 {
   font-size: 26px;
   background: rgb(199, 0, 255);
   background: radial-gradient(
@@ -47,19 +61,19 @@
     background-position: 400%;
   }
 }
-.card h2{
+.card h2 {
   font-size: 18px;
-  font-family: 'Poppins', sans-serif;
+  font-family: "Poppins", sans-serif;
 }
-.card h3{
+.card h3 {
   font-size: 14px;
   margin-bottom: 16px;
 }
-.card h6{
+.card h6 {
   font-size: 14px;
-  font-family: 'Raleway', sans-serif;
+  font-family: "Raleway", sans-serif;
 }
-.card span{
+.card span {
   font-size: 20px;
   background: rgb(199, 0, 255);
   background: radial-gradient(
@@ -76,17 +90,17 @@
   animation-timing-function: linear;
   animation-fill-mode: forwards;
 }
-@media all and (min-width:800px){
-  .card h1{
+@media all and (min-width: 800px) {
+  .card h1 {
     font-size: 36px;
   }
-  .card h2{
+  .card h2 {
     font-size: 20px;
   }
-  .card h3{
+  .card h3 {
     font-size: 16px;
   }
-  .card h6{
+  .card h6 {
     font-size: 16px;
   }
   .card span {
