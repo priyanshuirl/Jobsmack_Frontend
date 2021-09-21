@@ -9,7 +9,7 @@ import { IconButton } from "@mui/material";
 function SwipeButtons() {
     return (
         <div>
-            <p className="instrc">Swipe Right/Left on the cards to see more job listings.</p>
+            <p className="instrc">Swipe Right to shortlist | Swipe Left to reject the card</p>
             <div className="swipeButtons" onClick={() => { window.location.reload(); }}>
                 <IconButton className="swipeButtons__repeat">
                     <ReplayIcon fontSize="large" />
