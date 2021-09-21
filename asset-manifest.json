@@ -1,8 +1,8 @@
 {
   "files": {
-    "main.css": "/Jobsmack_Frontend/static/css/main.c32c93e4.chunk.css",
-    "main.js": "/Jobsmack_Frontend/static/js/main.49962e66.chunk.js",
-    "main.js.map": "/Jobsmack_Frontend/static/js/main.49962e66.chunk.js.map",
+    "main.css": "/Jobsmack_Frontend/static/css/main.8ca7781f.chunk.css",
+    "main.js": "/Jobsmack_Frontend/static/js/main.7bbf4ecc.chunk.js",
+    "main.js.map": "/Jobsmack_Frontend/static/js/main.7bbf4ecc.chunk.js.map",
     "runtime-main.js": "/Jobsmack_Frontend/static/js/runtime-main.273e04a2.js",
     "runtime-main.js.map": "/Jobsmack_Frontend/static/js/runtime-main.273e04a2.js.map",
     "static/js/2.1dbb6d84.chunk.js": "/Jobsmack_Frontend/static/js/2.1dbb6d84.chunk.js",
@@ -10,13 +10,13 @@
     "static/js/3.d6a94841.chunk.js": "/Jobsmack_Frontend/static/js/3.d6a94841.chunk.js",
     "static/js/3.d6a94841.chunk.js.map": "/Jobsmack_Frontend/static/js/3.d6a94841.chunk.js.map",
     "index.html": "/Jobsmack_Frontend/index.html",
-    "static/css/main.c32c93e4.chunk.css.map": "/Jobsmack_Frontend/static/css/main.c32c93e4.chunk.css.map",
+    "static/css/main.8ca7781f.chunk.css.map": "/Jobsmack_Frontend/static/css/main.8ca7781f.chunk.css.map",
     "static/js/2.1dbb6d84.chunk.js.LICENSE.txt": "/Jobsmack_Frontend/static/js/2.1dbb6d84.chunk.js.LICENSE.txt"
   },
   "entrypoints": [
     "static/js/runtime-main.273e04a2.js",
     "static/js/2.1dbb6d84.chunk.js",
-    "static/css/main.c32c93e4.chunk.css",
-    "static/js/main.49962e66.chunk.js"
+    "static/css/main.8ca7781f.chunk.css",
+    "static/js/main.7bbf4ecc.chunk.js"
   ]
 }
