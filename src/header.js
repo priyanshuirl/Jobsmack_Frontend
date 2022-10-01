@@ -12,7 +12,7 @@ function Header() {
             </IconButton>
             <div className="logo">
                 <h1>Jobsmack</h1>
-                <p classname="priyanshu">Made By <a href={"https://www.linkedin.com/in/priyanshuirl/"}>Priyanshu Mishra</a></p>
+                <p classname="priyanshu">Made By <a href={"https://priyanshumishra.netlify.app/"}>Priyanshu Mishra</a></p>
             </div>
             <IconButton>
                 <ChatIcon fontSize="large" className="header__icon" color="secondary" />
